@@ -1,0 +1,101 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color:#221f37;
+    text-align:center;
+}
+
+
+header{
+    background:white;
+}
+header > h1{
+    color:black;
+    text-align:center;
+    font-family: Asap, Verdana;
+    padding:10px;
+}
+.score-board {
+    position: relative;
+    border: 3px solid white;
+    margin: 20px auto;
+    width: 200px;
+    color: white;
+    font-size: 40px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px 20px;
+    font-family: Verdana;
+    
+}
+#colon{
+    padding-left:7px;
+    text-align:center;
+}
+.badge {
+    background-color: #fe5711;
+    font-size: 14px;
+    font-family: Verdana;
+    width: 30%;
+    height: 4vh;
+    padding:3%;
+}
+#user-label{
+    position:absolute;
+    left: -15%;
+    top: 40%;
+}
+#comp-label {
+    position: absolute;
+    right: -15%;
+    top: 40%;
+}
+.result {
+    font-size:40px;
+    color:white;
+    font-family:Verdana;
+    font-weight:bold;
+}
+.result {
+        text-align:center;
+}
+.choices{
+    text-align:center;
+}
+.choice{
+    display:inline-block;
+    margin: 4% 3% 3% 3%;
+    border:4px solid white;
+    border-radius:50%;
+    padding:10px;
+    transition: all 0.3s ease-in-out;
+ }
+.choice:hover {
+    cursor:pointer;
+    background:#273d86;
+}
+.bootom-msg > p{
+    color:white;
+    text-align:center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:20px;
+}
+.button {
+    
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color:red;
+    border-radius:10%;
+    margin-top : 3%;
+}
